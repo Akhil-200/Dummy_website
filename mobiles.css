@@ -1,0 +1,167 @@
+*{
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    border: border-box;
+}
+.nav-bar{
+    height: 70px;
+    background-color: rgb(253, 39, 39);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.nav-logo{
+    height:50px;
+    width: 100px;
+    
+}
+.logo{
+    background-image: url(https://cdn.bajajelectronics.com/images/be-logo.svg);
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+    margin-left: 0px;
+}
+.border{
+    border: 1.5px solid transparent;
+    margin-left: 30px;
+}
+.border:hover{
+    border: 1.5px solid white;
+    margin-left: 30px;
+}
+
+/** Box-2**/
+.add-fst{
+    color: rgb(228, 228, 228);
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.add-sec{
+   font-size: 1rem;
+   margin-left: 3px;
+}
+.add-icon{
+    display: flex;
+    text-align: center;
+}
+
+/** Box-3**/
+.nav-search{
+    display: flex;
+    background-color:coral;
+    height: 25px;
+    width: 400px;
+    border-radius: 2px;
+    margin-left: 20px;
+}
+.search-input{
+    width: 400px;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+.nav-search:hover{
+    border: 1.5px solid orange
+}
+/**Box-4**/
+span{
+    font-size: 0.7rem;
+}
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/**Box-5**/
+.nav-cart i {
+    font-size:20px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.panel{
+    background-color: rgb(26, 14, 14);
+    color: rgb(240, 240, 240);
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.panel-ops p {
+    display: inline;
+    margin-left: 30px;
+}
+.panel-ops{
+    width: 70%;
+    font-size: 1rem;
+}
+.panel-ops a{
+    color: white;
+    text-decoration: none;
+}
+section{
+    background-color:rgb(238, 235, 235);
+}
+/**Mobiles**/
+.box-banner{
+    height: 350px;
+    background-size: cover;
+    margin-bottom: 1rem;
+}
+#a{
+    border: 2px solid none;
+    justify-content: space-evenly;
+    background-color: white;
+    padding:20px;
+    margin: 7px;
+    margin-left: 1rem;
+}
+.contain{
+    display: flex;
+}
+.contain .cards{
+    text-align: center;
+}
+.con{
+    display: flex;
+}
+.con .card{
+    text-align: center;
+}
+.cont{
+    display: flex;
+}
+.cont .car{
+    text-align: center;
+}
+.conta{
+    display: flex;
+}
+.conta .ca{
+    text-align: center;
+}
+.container{
+    margin-bottom: 20px;
+}
+.cards b{
+    margin-bottom: 10px;
+}
+.price{
+    display: flex;
+    text-align: center;
+    margin-left: 6.5rem;
+}
+.price p{
+    color: #CC0C39;
+}
+.del{
+    color: rgb(75, 73, 73);
+    font-size: 12px;
+}
